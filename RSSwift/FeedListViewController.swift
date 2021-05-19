@@ -163,8 +163,8 @@ class FeedListViewController: UITableViewController, XMLParserDelegate ,UISearch
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         
-        let apiKey = "apikey"
-        let searchEngineId = "016317495089526517946:lyxihnbbmnx"
+        let apiKey = "your apikey"
+        let searchEngineId = "your searchengineid"
         let serverAddress = String(format: "https://www.googleapis.com/customsearch/v1?q=%@&cx=%@&key=%@" ,"news \(searchBar.text)  filetype:xml",searchEngineId, apiKey)
 
 
