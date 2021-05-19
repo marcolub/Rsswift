@@ -3,7 +3,6 @@
 //  Rsswift
 //
 //  Created by marco luberto on 10/12/2019.
-//  Copyright © 2019 ArledKola. All rights reserved.
 //
 
 import UIKit
